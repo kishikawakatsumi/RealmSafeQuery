@@ -1,0 +1,2 @@
+[submodule "Carthage/Checkouts/realm-cocoa"]
+	url = https://github.com/realm/realm-cocoa.git
