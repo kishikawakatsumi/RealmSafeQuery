@@ -14,7 +14,7 @@
 		148E75441F67C13000559372 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148E75431F67C13000559372 /* Operators.swift */; };
 		148E75461F67C5EB00559372 /* TestObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148E75451F67C5EB00559372 /* TestObjects.swift */; };
 		14B9D18A1F67B861005ACB6B /* Results+KeyPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B9D1891F67B861005ACB6B /* Results+KeyPath.swift */; };
-		14ED099A1F67B31600C3622E /* RealmSafeQuery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14ED09901F67B31600C3622E /* RealmSafeQuery.framework */; };
+		14ED099A1F67B31600C3622E /* RealmTypeSafeQuery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14ED09901F67B31600C3622E /* RealmTypeSafeQuery.framework */; };
 		14ED099F1F67B31600C3622E /* RealmSafeQueryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14ED099E1F67B31600C3622E /* RealmSafeQueryTests.swift */; };
 		14ED09A11F67B31600C3622E /* RealmSafeQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 14ED09931F67B31600C3622E /* RealmSafeQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -42,10 +42,10 @@
 		148E754D1F67CFAF00559372 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
 		148E754E1F67CFAF00559372 /* Tests.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Tests.xcconfig; sourceTree = "<group>"; };
 		14B9D1891F67B861005ACB6B /* Results+KeyPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Results+KeyPath.swift"; sourceTree = "<group>"; };
-		14ED09901F67B31600C3622E /* RealmSafeQuery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RealmSafeQuery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		14ED09901F67B31600C3622E /* RealmTypeSafeQuery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RealmTypeSafeQuery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		14ED09931F67B31600C3622E /* RealmSafeQuery.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RealmSafeQuery.h; sourceTree = "<group>"; };
 		14ED09941F67B31600C3622E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		14ED09991F67B31600C3622E /* RealmSafeQueryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealmSafeQueryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14ED09991F67B31600C3622E /* RealmTypeSafeQueryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealmTypeSafeQueryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14ED099E1F67B31600C3622E /* RealmSafeQueryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmSafeQueryTests.swift; sourceTree = "<group>"; };
 		14ED09A01F67B31600C3622E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -64,7 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14ED099A1F67B31600C3622E /* RealmSafeQuery.framework in Frameworks */,
+				14ED099A1F67B31600C3622E /* RealmTypeSafeQuery.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,8 +106,8 @@
 		14ED09911F67B31600C3622E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				14ED09901F67B31600C3622E /* RealmSafeQuery.framework */,
-				14ED09991F67B31600C3622E /* RealmSafeQueryTests.xctest */,
+				14ED09901F67B31600C3622E /* RealmTypeSafeQuery.framework */,
+				14ED09991F67B31600C3622E /* RealmTypeSafeQueryTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -149,9 +149,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		14ED098F1F67B31600C3622E /* RealmSafeQuery */ = {
+		14ED098F1F67B31600C3622E /* RealmTypeSafeQuery */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 14ED09A41F67B31600C3622E /* Build configuration list for PBXNativeTarget "RealmSafeQuery" */;
+			buildConfigurationList = 14ED09A41F67B31600C3622E /* Build configuration list for PBXNativeTarget "RealmTypeSafeQuery" */;
 			buildPhases = (
 				14ED098B1F67B31600C3622E /* Sources */,
 				14ED098C1F67B31600C3622E /* Frameworks */,
@@ -162,14 +162,14 @@
 			);
 			dependencies = (
 			);
-			name = RealmSafeQuery;
+			name = RealmTypeSafeQuery;
 			productName = RealmSafeQuery;
-			productReference = 14ED09901F67B31600C3622E /* RealmSafeQuery.framework */;
+			productReference = 14ED09901F67B31600C3622E /* RealmTypeSafeQuery.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		14ED09981F67B31600C3622E /* RealmSafeQueryTests */ = {
+		14ED09981F67B31600C3622E /* RealmTypeSafeQueryTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 14ED09A71F67B31600C3622E /* Build configuration list for PBXNativeTarget "RealmSafeQueryTests" */;
+			buildConfigurationList = 14ED09A71F67B31600C3622E /* Build configuration list for PBXNativeTarget "RealmTypeSafeQueryTests" */;
 			buildPhases = (
 				14ED09951F67B31600C3622E /* Sources */,
 				14ED09961F67B31600C3622E /* Frameworks */,
@@ -180,9 +180,9 @@
 			dependencies = (
 				14ED099C1F67B31600C3622E /* PBXTargetDependency */,
 			);
-			name = RealmSafeQueryTests;
+			name = RealmTypeSafeQueryTests;
 			productName = RealmSafeQueryTests;
-			productReference = 14ED09991F67B31600C3622E /* RealmSafeQueryTests.xctest */;
+			productReference = 14ED09991F67B31600C3622E /* RealmTypeSafeQueryTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +206,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 14ED098A1F67B31600C3622E /* Build configuration list for PBXProject "RealmSafeQuery" */;
+			buildConfigurationList = 14ED098A1F67B31600C3622E /* Build configuration list for PBXProject "RealmTypeSafeQuery" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -218,8 +218,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				14ED098F1F67B31600C3622E /* RealmSafeQuery */,
-				14ED09981F67B31600C3622E /* RealmSafeQueryTests */,
+				14ED098F1F67B31600C3622E /* RealmTypeSafeQuery */,
+				14ED09981F67B31600C3622E /* RealmTypeSafeQueryTests */,
 			);
 		};
 /* End PBXProject section */
@@ -267,7 +267,7 @@
 /* Begin PBXTargetDependency section */
 		14ED099C1F67B31600C3622E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 14ED098F1F67B31600C3622E /* RealmSafeQuery */;
+			target = 14ED098F1F67B31600C3622E /* RealmTypeSafeQuery */;
 			targetProxy = 14ED099B1F67B31600C3622E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -460,7 +460,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		14ED098A1F67B31600C3622E /* Build configuration list for PBXProject "RealmSafeQuery" */ = {
+		14ED098A1F67B31600C3622E /* Build configuration list for PBXProject "RealmTypeSafeQuery" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				14ED09A21F67B31600C3622E /* Debug */,
@@ -469,7 +469,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		14ED09A41F67B31600C3622E /* Build configuration list for PBXNativeTarget "RealmSafeQuery" */ = {
+		14ED09A41F67B31600C3622E /* Build configuration list for PBXNativeTarget "RealmTypeSafeQuery" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				14ED09A51F67B31600C3622E /* Debug */,
@@ -478,7 +478,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		14ED09A71F67B31600C3622E /* Build configuration list for PBXNativeTarget "RealmSafeQueryTests" */ = {
+		14ED09A71F67B31600C3622E /* Build configuration list for PBXNativeTarget "RealmTypeSafeQueryTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				14ED09A81F67B31600C3622E /* Debug */,

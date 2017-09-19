@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:RealmSafeQuery.xcodeproj">
+      location = "group:RealmTypeSafeQuery.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Carthage/Checkouts/realm-cocoa/Realm.xcodeproj">
