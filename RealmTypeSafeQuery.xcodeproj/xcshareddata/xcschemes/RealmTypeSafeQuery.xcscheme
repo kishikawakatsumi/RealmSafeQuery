@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0830"
+   LastUpgradeVersion = "0900"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "14ED098F1F67B31600C3622E"
-               BuildableName = "RealmSafeQuery.framework"
-               BlueprintName = "RealmSafeQuery"
-               ReferencedContainer = "container:RealmSafeQuery.xcodeproj">
+               BuildableName = "RealmTypeSafeQuery.framework"
+               BlueprintName = "RealmTypeSafeQuery"
+               ReferencedContainer = "container:RealmTypeSafeQuery.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,9 +34,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "14ED09981F67B31600C3622E"
-               BuildableName = "RealmSafeQueryTests.xctest"
-               BlueprintName = "RealmSafeQueryTests"
-               ReferencedContainer = "container:RealmSafeQuery.xcodeproj">
+               BuildableName = "RealmTypeSafeQueryTests.xctest"
+               BlueprintName = "RealmTypeSafeQueryTests"
+               ReferencedContainer = "container:RealmTypeSafeQuery.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -44,9 +44,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "14ED098F1F67B31600C3622E"
-            BuildableName = "RealmSafeQuery.framework"
-            BlueprintName = "RealmSafeQuery"
-            ReferencedContainer = "container:RealmSafeQuery.xcodeproj">
+            BuildableName = "RealmTypeSafeQuery.framework"
+            BlueprintName = "RealmTypeSafeQuery"
+            ReferencedContainer = "container:RealmTypeSafeQuery.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -67,9 +67,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "14ED098F1F67B31600C3622E"
-            BuildableName = "RealmSafeQuery.framework"
-            BlueprintName = "RealmSafeQuery"
-            ReferencedContainer = "container:RealmSafeQuery.xcodeproj">
+            BuildableName = "RealmTypeSafeQuery.framework"
+            BlueprintName = "RealmTypeSafeQuery"
+            ReferencedContainer = "container:RealmTypeSafeQuery.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -85,9 +85,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "14ED098F1F67B31600C3622E"
-            BuildableName = "RealmSafeQuery.framework"
-            BlueprintName = "RealmSafeQuery"
-            ReferencedContainer = "container:RealmSafeQuery.xcodeproj">
+            BuildableName = "RealmTypeSafeQuery.framework"
+            BlueprintName = "RealmTypeSafeQuery"
+            ReferencedContainer = "container:RealmTypeSafeQuery.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

@@ -38,7 +38,7 @@
 		148E75451F67C5EB00559372 /* TestObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestObjects.swift; sourceTree = "<group>"; };
 		148E754A1F67CFAF00559372 /* Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Base.xcconfig; sourceTree = "<group>"; };
 		148E754B1F67CFAF00559372 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
-		148E754C1F67CFAF00559372 /* RealmSafeQuery.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = RealmSafeQuery.xcconfig; sourceTree = "<group>"; };
+		148E754C1F67CFAF00559372 /* RealmTypeSafeQuery.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = RealmTypeSafeQuery.xcconfig; sourceTree = "<group>"; };
 		148E754D1F67CFAF00559372 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
 		148E754E1F67CFAF00559372 /* Tests.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Tests.xcconfig; sourceTree = "<group>"; };
 		14B9D1891F67B861005ACB6B /* Results+KeyPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Results+KeyPath.swift"; sourceTree = "<group>"; };
@@ -85,7 +85,7 @@
 			children = (
 				148E754A1F67CFAF00559372 /* Base.xcconfig */,
 				148E754B1F67CFAF00559372 /* Debug.xcconfig */,
-				148E754C1F67CFAF00559372 /* RealmSafeQuery.xcconfig */,
+				148E754C1F67CFAF00559372 /* RealmTypeSafeQuery.xcconfig */,
 				148E754D1F67CFAF00559372 /* Release.xcconfig */,
 				148E754E1F67CFAF00559372 /* Tests.xcconfig */,
 			);
@@ -95,8 +95,8 @@
 		14ED09861F67B31600C3622E = {
 			isa = PBXGroup;
 			children = (
-				14ED09921F67B31600C3622E /* RealmSafeQuery */,
-				14ED099D1F67B31600C3622E /* RealmSafeQueryTests */,
+				14ED09921F67B31600C3622E /* RealmTypeSafeQuery */,
+				14ED099D1F67B31600C3622E /* RealmTypeSafeQueryTests */,
 				148E75491F67CFAF00559372 /* Configurations */,
 				14ED09911F67B31600C3622E /* Products */,
 				148E753A1F67BF1500559372 /* Frameworks */,
@@ -112,7 +112,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		14ED09921F67B31600C3622E /* RealmSafeQuery */ = {
+		14ED09921F67B31600C3622E /* RealmTypeSafeQuery */ = {
 			isa = PBXGroup;
 			children = (
 				14ED09931F67B31600C3622E /* RealmSafeQuery.h */,
@@ -122,17 +122,17 @@
 				148E753F1F67C09D00559372 /* RealmPropertyType.swift */,
 				14ED09941F67B31600C3622E /* Info.plist */,
 			);
-			path = RealmSafeQuery;
+			path = RealmTypeSafeQuery;
 			sourceTree = "<group>";
 		};
-		14ED099D1F67B31600C3622E /* RealmSafeQueryTests */ = {
+		14ED099D1F67B31600C3622E /* RealmTypeSafeQueryTests */ = {
 			isa = PBXGroup;
 			children = (
 				14ED099E1F67B31600C3622E /* RealmSafeQueryTests.swift */,
 				148E75451F67C5EB00559372 /* TestObjects.swift */,
 				14ED09A01F67B31600C3622E /* Info.plist */,
 			);
-			path = RealmSafeQueryTests;
+			path = RealmTypeSafeQueryTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -386,7 +386,7 @@
 		};
 		14ED09A51F67B31600C3622E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 148E754C1F67CFAF00559372 /* RealmSafeQuery.xcconfig */;
+			baseConfigurationReference = 148E754C1F67CFAF00559372 /* RealmTypeSafeQuery.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -395,10 +395,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = RealmSafeQuery/Info.plist;
+				INFOPLIST_FILE = RealmTypeSafeQuery/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.realm.RealmSafeQuery;
+				PRODUCT_BUNDLE_IDENTIFIER = io.realm.RealmTypeSafeQuery;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -408,7 +408,7 @@
 		};
 		14ED09A61F67B31600C3622E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 148E754C1F67CFAF00559372 /* RealmSafeQuery.xcconfig */;
+			baseConfigurationReference = 148E754C1F67CFAF00559372 /* RealmTypeSafeQuery.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -417,10 +417,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = RealmSafeQuery/Info.plist;
+				INFOPLIST_FILE = RealmTypeSafeQuery/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.realm.RealmSafeQuery;
+				PRODUCT_BUNDLE_IDENTIFIER = io.realm.RealmTypeSafeQuery;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -434,9 +434,9 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 27AEDK3C9F;
-				INFOPLIST_FILE = RealmSafeQueryTests/Info.plist;
+				INFOPLIST_FILE = RealmTypeSafeQueryTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.realm.RealmSafeQueryTests;
+				PRODUCT_BUNDLE_IDENTIFIER = io.realm.RealmTypeSafeQueryTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
@@ -449,9 +449,9 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 27AEDK3C9F;
-				INFOPLIST_FILE = RealmSafeQueryTests/Info.plist;
+				INFOPLIST_FILE = RealmTypeSafeQueryTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.realm.RealmSafeQueryTests;
+				PRODUCT_BUNDLE_IDENTIFIER = io.realm.RealmTypeSafeQueryTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};

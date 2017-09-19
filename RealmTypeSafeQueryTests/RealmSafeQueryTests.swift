@@ -1,6 +1,6 @@
 //
-//  RealmSafeQueryTests.swift
-//  RealmSafeQueryTests
+//  RealmTypeSafeQueryTests.swift
+//  RealmTypeSafeQueryTests
 //
 //  Created by Kishikawa Katsumi on 2017/09/12.
 //  Copyright © 2017 Realm. All rights reserved.
@@ -8,9 +8,9 @@
 
 import XCTest
 import RealmSwift
-@testable import RealmSafeQuery
+@testable import RealmTypeSafeQuery
 
-class RealmSafeQueryTests: XCTestCase {
+class RealmTypeSafeQueryTests: XCTestCase {
     override func setUp() {
         super.setUp()
     }

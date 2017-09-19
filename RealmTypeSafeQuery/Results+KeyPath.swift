@@ -1,6 +1,6 @@
 //
 //  Results+KeyPath.swift
-//  RealmSafeQuery
+//  RealmTypeSafeQuery
 //
 //  Created by Kishikawa Katsumi on 2017/09/12.
 //  Copyright © 2017 Realm. All rights reserved.
