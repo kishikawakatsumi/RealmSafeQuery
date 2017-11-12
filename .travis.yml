@@ -1,5 +1,7 @@
 language: objective-c
-osx_image: xcode9
+os:
+  - osx_image: xcode9.1
+  - osx_image: xcode9
 script:
 - xcodebuild -workspace "$WORKSPACE" -scheme "$SCHEME" -configuration "$CONFIGURATION"
   -sdk "$SDK" -destination "$DESTINATION" -derivedDataPath build
