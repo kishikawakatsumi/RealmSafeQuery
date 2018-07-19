@@ -17,6 +17,7 @@
 		14C98BB31F7185DD00C7007E /* Predicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C98BB21F7185DD00C7007E /* Predicate.swift */; };
 		14C98BB51F7185E700C7007E /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C98BB41F7185E700C7007E /* Operators.swift */; };
 		14C98BB71F71864300C7007E /* TestObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C98BB61F71864300C7007E /* TestObjects.swift */; };
+		7DE98AA92100E60E0062DAA9 /* SortDescriptor+KeyPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE98AA82100E60E0062DAA9 /* SortDescriptor+KeyPath.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		14C98BBB1F7186F700C7007E /* RealmTypeSafeQuery.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = RealmTypeSafeQuery.xcconfig; sourceTree = "<group>"; };
 		14C98BBC1F7186F700C7007E /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
 		14C98BBD1F7186F700C7007E /* Tests.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Tests.xcconfig; sourceTree = "<group>"; };
+		7DE98AA82100E60E0062DAA9 /* SortDescriptor+KeyPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SortDescriptor+KeyPath.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				14C98B731F71809000C7007E /* RealmTypeSafeQuery.h */,
 				14C98BAE1F7185C600C7007E /* Results+KeyPath.swift */,
+				7DE98AA82100E60E0062DAA9 /* SortDescriptor+KeyPath.swift */,
 				14C98BB01F7185D200C7007E /* RealmPropertyType.swift */,
 				14C98BB21F7185DD00C7007E /* Predicate.swift */,
 				14C98BB41F7185E700C7007E /* Operators.swift */,
@@ -246,6 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DE98AA92100E60E0062DAA9 /* SortDescriptor+KeyPath.swift in Sources */,
 				14C98BB11F7185D200C7007E /* RealmPropertyType.swift in Sources */,
 				14C98BB51F7185E700C7007E /* Operators.swift in Sources */,
 				14C98BB31F7185DD00C7007E /* Predicate.swift in Sources */,

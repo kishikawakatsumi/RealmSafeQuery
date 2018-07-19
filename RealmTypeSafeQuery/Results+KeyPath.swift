@@ -15,10 +15,10 @@ extension Results {
     }
 
     public func sorted<RealmObject: Object, RealmProperty: RealmPropertyType>(byKeyPath keyPath: KeyPath<RealmObject, RealmProperty>, ascending: Bool = true) -> Results<Element> {
-        return sorted(by: [SortDescriptor(keyPath: keyPath._kvcKeyPathString!, ascending: ascending)])
+        return sorted(by: [SortDescriptor(keyPath: keyPath, ascending: ascending)])
     }
 
     public func sorted<RealmObject: Object, RealmProperty: RealmPropertyType>(byKeyPath keyPath: KeyPath<RealmObject, RealmProperty?>, ascending: Bool = true) -> Results<Element> {
-        return sorted(by: [SortDescriptor(keyPath: keyPath._kvcKeyPathString!, ascending: ascending)])
+        return sorted(by: [SortDescriptor(keyPath: keyPath, ascending: ascending)])
     }
 }
